@@ -1,0 +1,46 @@
+.card {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card .header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: #6e6e6e;
+}
+
+.card .numbers {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px;
+    margin-top: -25px;
+}
+
+.card .footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: #6e6e6e;
+    font-size: 16px;
+    width: 100%;
+}
+
+.card .footer .test {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.green {
+    color: #0FA44A;
+}

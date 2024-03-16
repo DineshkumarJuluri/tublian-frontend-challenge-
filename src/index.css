@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url('../src/assets/AeonikTRIAL-Regular.otf') format('opentype');
+}
+
+body {
+    font-family: 'Aeonik' !important;
+}
